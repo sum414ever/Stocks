@@ -5,7 +5,7 @@ import com.sum414ever.stocks.data.local.StockDatabase
 import com.sum414ever.stocks.data.mappers.toCompanyListing
 import com.sum414ever.stocks.data.mappers.toCompanyListingEntity
 import com.sum414ever.stocks.data.remote.StockApi
-import com.sum414ever.stocks.domain.model.CompanyListing
+import com.sum414ever.stocks.domain.model.CompanyListings
 import com.sum414ever.stocks.domain.repository.StockRepository
 import com.sum414ever.stocks.util.Resource
 import kotlinx.coroutines.flow.Flow
@@ -17,9 +17,9 @@ import javax.inject.Singleton
 
 @Singleton
 class StockRepositoryImpl @Inject constructor(
-    val api: StockApi,
-    val db: StockDatabase,
-    val companyListingsParser: CSVParser<CompanyListing>
+    private val api: StockApi,
+    private val db: StockDatabase,
+    private val companyListingsParser: CSVParser<CompanyListings>
 ) : StockRepository {
 
     private val dao = db.dao
@@ -27,7 +27,7 @@ class StockRepositoryImpl @Inject constructor(
     override suspend fun getCompanyListings(
         fetchFromRemote: Boolean,
         query: String
-    ): Flow<Resource<List<CompanyListing>>> {
+    ): Flow<Resource<List<CompanyListings>>> {
 
         return flow {
             emit(Resource.Loading(true))

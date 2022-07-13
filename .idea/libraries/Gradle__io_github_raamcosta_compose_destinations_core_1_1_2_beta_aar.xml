@@ -3,8 +3,9 @@
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/aa72c859b62517ad633c267f82853898/transformed/core-1.1.2-beta/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9aacb1c12ab55adb660c1063665a4eaa/transformed/core-1.1.2-beta/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/9aacb1c12ab55adb660c1063665a4eaa/transformed/core-1.1.2-beta/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/9aacb1c12ab55adb660c1063665a4eaa/transformed/core-1.1.2-beta/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/867495cea28449fa90a13f01111ccf0a/transformed/core-1.1.2-beta/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/867495cea28449fa90a13f01111ccf0a/transformed/core-1.1.2-beta/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/867495cea28449fa90a13f01111ccf0a/transformed/core-1.1.2-beta/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/io.github.raamcosta.compose-destinations/core/1.1.2-beta/b0d59391822cfb1bc56e77936372be05e11cc19a/core-1.1.2-beta-javadoc.jar!/" />

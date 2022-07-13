@@ -2,9 +2,10 @@
   <library name="Gradle: com.google.accompanist:accompanist-flowlayout:0.17.0@aar">
     <CLASSES>
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/83282265874d3cc5e211b8075c209310/transformed/accompanist-flowlayout-0.17.0/res" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/649042e2a4fa79a05f609da6dc3f2ece/transformed/accompanist-flowlayout-0.17.0/AndroidManifest.xml" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/649042e2a4fa79a05f609da6dc3f2ece/transformed/accompanist-flowlayout-0.17.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-3/649042e2a4fa79a05f609da6dc3f2ece/transformed/accompanist-flowlayout-0.17.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/fa334937802983542cbba6c289361fe0/transformed/accompanist-flowlayout-0.17.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa334937802983542cbba6c289361fe0/transformed/accompanist-flowlayout-0.17.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/fa334937802983542cbba6c289361fe0/transformed/accompanist-flowlayout-0.17.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.accompanist/accompanist-flowlayout/0.17.0/e2211881fceddb9537cb9612681888cca02d75c/accompanist-flowlayout-0.17.0-javadoc.jar!/" />
