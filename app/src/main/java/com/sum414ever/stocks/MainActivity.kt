@@ -9,7 +9,7 @@ import androidx.compose.material.Surface
 import androidx.compose.ui.Modifier
 import androidx.navigation.NavGraph
 import com.ramcosta.composedestinations.DestinationsNavHost
-import com.sum414ever.stocks.presentation.company_listings.NavGraphs
+import com.sum414ever.stocks.presentation.NavGraphs
 import com.sum414ever.stocks.ui.theme.StockMarketAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
